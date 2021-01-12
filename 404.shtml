@@ -1,0 +1,6 @@
+<script>
+
+arg = "https://www.wattpad.com<!--#echo var="REQUEST_URI" -->";
+window.location="/index.php?arg="+arg;
+
+</script>
