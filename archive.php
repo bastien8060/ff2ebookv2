@@ -66,15 +66,22 @@ function hasSearch($search) { return $search !== false; }
                     <div class="input-group">
                         <input type="text" id="archive-search-input" name="search" class="form-control" placeholder="Fic title or author or ID" value="<?php echo hasSearch($search) ? $search : ""; ?>" />
                         <span class="input-group-btn">
-                            <button class="btn btn-default btn-block" >Search</button>
+                            <button class="btn btn-default submitme btn-block" >Search</button>
                         </span>
-                    </div>
-                    <select class="custom-select custom-select-lg" name="sort">
-                        <option selected value="title">Title</option>
-                        <option value="author">Author</option>
-                        <option value="updated">Update date</option>
-                        <option value="site">Source Website</option>
-                    </select>
+                        <span style="" class="viewall input-group-btn">
+                            <button class="viewall btn btn-default btn-block" onclick="$('#archive-search-input').val(' ');$('.submitme').click()">View All</button>
+                        </span>
+                    </div><br>
+                    <center>
+                        <div class="select">
+                            <select id="slct" class="custom-select custom-select-lg" name="sort">
+                                <option selected value="title">Title</option>
+                                <option value="author">Author</option>
+                                <option value="updated">Update date</option>
+                                <option value="site">Source Website</option>
+                            </select>
+                        </div>
+                    </center>
                 </form>
             </div>
         </div>

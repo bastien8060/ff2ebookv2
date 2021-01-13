@@ -6,10 +6,76 @@
 */
 
 
+#slct{
+
+}
+
+.viewall{
+  margin-left: 20px !important;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  background: white;
+  background-image: none;
+    border-radius: 5px;
+    border: none;
+
+}
+/* Remove IE arrow */
+select::-ms-expand {
+  display: none;
+}
+/* Custom Select */
+.select {
+  position: relative;
+  display: flex;
+  width: 20em;
+  height: 2.9em;
+  line-height: 3;
+  background: white;
+  overflow: hidden;
+  border-radius: .25em;
+  border: 1px solid #ccc;
+
+}
+select {
+  flex: 1;
+  padding: 0 .5em;
+  color: #999;
+  cursor: pointer;
+}
+/* Arrow */
+.select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 1em;
+  background: white;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+      border-left: 1px solid #ccc;
+}
+/* Transition */
+.select:hover::after {
+  color: #FD8541;
+}
+
+
 
 body
 {
-    background-color: #282828;
+    background-color: #fff;
+    color:black;
 }
 
 
@@ -24,7 +90,7 @@ body
 {
     font-size: 20px;
     text-align: right;
-    color: white;
+    color: #FD8541;
     -webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
     transition-duration: 0.3s;
@@ -32,27 +98,41 @@ body
 
 .menu-button:hover
 {
-    color: #FFA600;
+    color: #FD8541;
 }
 
 .dropdown-menu-option
  {
     width: 200px;
-    background-color: #505050;
+    background-color: white;
     font-size: 20px;
-    color: white;
+    color: #FD8541 !important;
  }
 
 .dropdown-menu-option li a
 {
     background-image: none;
-    color: white;
+    color: #FD8541 !important;
+}
+
+
+input{
+   border-radius: 5px !important;
+}
+
+.btn{
+        border-radius: 5px !important;
+}
+
+.dropdown-menu-option li a:hover
+{
+    color: white !important;
 }
 
 
 .dropdown-menu-option > li > a:hover, .dropdown-menu-option > li > a:focus
 {
-    background-color: #FFA600;
+    background-color: #FD8541;
     background-image: none;
     -webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
@@ -68,22 +148,30 @@ body
 
 .menu-option li+li
 {
-    border-left: 1px solid #FFA600;
+    border-left: 1px solid #FD8541;
     padding-left: 10px;
     padding-right: 10px;
 }
 
 
+.dark-gray{
+border-bottom:1px solid lightgrey; 
+}
+
+.colormeblack{
+    color: black !important;
+}
+
 .menu-option a
 {
-    color: white;
+    color: black;
     font-size: 20px;
     text-decoration: none;
 }
 
 .menu-option a:hover
 {
-    color: #FFA600;
+    color: #FD8541;
     -webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
     transition-duration: 0.3s;
@@ -91,13 +179,13 @@ body
 
 .dark-gray
 {
-    background-color: #191919;
-    color: #191919;
+    background-color: white;
+    color: black !important;
 }
 
 .text-highlight
 {
-    color: #FFA600;
+    color: #FD8541;
 }
 
 .text-right
@@ -125,7 +213,7 @@ body
 .collapse-header
 {
     background-color: #191919;
-    color: #FFA600;
+    color: #FD8541;
     padding-left: 10px;
     padding-right: 10px;
     height: 35px;
@@ -153,7 +241,7 @@ body
 .text-zone-header
 {
     background-color: #191919;
-    color: #FFA600;
+    color: #FD8541;
     padding-left: 10px;
     padding-right: 10px;
     height: 35px;
