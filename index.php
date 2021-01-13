@@ -28,7 +28,7 @@
     <link rel="icon" type="image/png" href="ico/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="ico/favicon-16x16.png" sizes="16x16" />
     <link rel="icon" type="image/png" href="ico/android-chrome-192x192.png" sizes="128x128" />
-    <meta name="application-name" content="&nbsp;"/>
+    <meta name="application-name" content="FreeFiction"/>
     <meta name="msapplication-TileColor" content="#FD8541" />
     <meta name="msapplication-TileImage" content="ico/android-chrome-192x192.png" />
     <meta name="msapplication-square70x70logo" content="ico/android-chrome-192x192.png" />
@@ -37,6 +37,8 @@
     <meta name="msapplication-square310x310logo" content="ico/android-chrome-192x192.png" />
 
     <meta name="theme-color" content="#FD8541">
+    <meta name="msapplication-navbutton-color" content="#FD8541">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#FD8541">
 
 
     <meta name="description" content="Convert FanFictions to ebooks for free. Works with WattPad.com, FanFiction.net, FictionPress, HPFanFicArchive & FicWad. Download the story as ePub, MOBI & on your Kindle.">
