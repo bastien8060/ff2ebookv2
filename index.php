@@ -3,8 +3,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>WP2EBOOK :: Download your favorites WattPad stories.</title>
-    <meta name="description" content="Convert to ebooks. Supports WattPad.com, FicWad, FanFiction.net, FictionPress, HarryPotterFanFiction & HPFanFicArchive. Download as ePub, MOBI & on your Kindle.">
+    <title>FreeFiction | Download for free any WattPad FanFictions.</title>
+    <meta name="description" content="Convert FanFictions to ebooks for free. Works with WattPad.com, FanFiction.net, FictionPress, HPFanFicArchive & FicWad. Download the story as ePub, MOBI & on your Kindle.">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:300'>
     <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'><link rel="stylesheet" href="./style.css">
@@ -24,7 +24,7 @@
 <!-- partial:index.partial.html -->
 <!--PEN HEADER-->
 <div class="header">
-  <h1 class="header__title bold"><span class="bold">WP<span class="highlight">2</span>Ebook</span></h1>
+  <h1 class="header__title bold"><span class="bold">Free<span class="highlight">Fiction</span></span></h1>
   <div class="header__btns btns"><a class="header__btn btn" href="https://github.com/bastien8060/ff2ebookv2" title="Check on Github" target="_blanc">Check on Github</a></div><br><br>
   <div class="header__btns btns"><a class="header__btn btn" href="archive.php" title="Check Archive" target="_blanc">Open the Holy Archive</a></div>
 </div>
@@ -85,7 +85,7 @@
     
           
           <div class="tabs__panel-card">
-            <p>Add ebook-sender@wattpad.cf to your spam filter or Kindle Approved Personal Document E-mail List</p>
+            <p>Whitelist postman@wattpad.cf from your email's spam folder, or, add it to the Kindle's Approved Personal Document E-mail List</p>
           </div>
         </div>
         <!--single panel-->
@@ -100,10 +100,10 @@
         <!--single panel-->
         <div class="tabs__panel">
           <div class="tabs__panel-card">
-             <img height="55px" style="margin-left:10px" width="55px" src="https://github.githubassets.com/images/modules/logos_page/Octocat.png"/>
+             <img height="55px" alt="GitHub Mascotte's Icon" style="margin-left:10px" width="55px" src="https://github.githubassets.com/images/modules/logos_page/Octocat.png"/>
             <span style="margin-left:35px">
               <h2>Submit Issue/Ideas</h2><br>
-              <p>Visit my GitHub (<a target="_blank" href="https://github.com/bastien8060/ff2ebookv2/issues"><u><b>link</b></u></a>)</p>
+              <p>Visit my GitHub (<a target="_blank" href="https://github.com/bastien8060/ff2ebookv2/issues"><span class="bold underline">link</span></a>)</p>
             <span>
           </div>
           <div class="tabs__panel-card">
@@ -111,8 +111,8 @@
             <h2>Supported Websites:</h2><br>
               <ul class="marginme">
                 <li>Wattpad.com</li>
-                <li>FanFiction.com</li>
-                <li>FictionPress.com</li>
+                <li>FanFiction.com - <button class="tags red nogap xxsmall" style="margin-bottom: 2px !important;">Temporarily down</button></li>
+                <li>FictionPress.com - <button class="tags red nogap xxsmall">Temporarily down</button></li>
                 <li>FictionHunt.com</li>
                 <li>FicWad.com</li>
                 <li>HPFanFicArchive.com</li>
@@ -125,31 +125,43 @@
           <div class="tabs__panel-card">
             <span>
               <h2>Not Receiving Emails on Kindle?</h2><br>
-              <p>Make sure to add ebook-sender@wattpad.cf to your spam filter or Kindle Approved Personal Document E-mail List. See <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GX9XLEVV8G4DB28H" target="_blank"><u><b>here</b></u></a>, how to do it.</p>
+              <p>Make sure to add ebook-sender@wattpad.cf to your spam filter or Kindle Approved Personal Document E-mail List. See <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GX9XLEVV8G4DB28H" target="_blank"><span class="bold underline">here</span></a>, how to do it.</p>
             <span>
           </div>
           <div class="tabs__panel-card">
             <span>
               <h2>Error Fetching Chapters/Infos</h2><br>
-              <p>Please Submit an issue on GitHub (<a href="https://github.com/bastien8060/ff2ebookv2/issues" target="_blank"><u><b>here</b></u></a>)</p>
+              <p>Please Submit an issue on GitHub (<a href="https://github.com/bastien8060/ff2ebookv2/issues" target="_blank"><span class="bold underline">here</span></a>)</p>
             <span>
           </div>
            <div class="tabs__panel-card">
            <span>
             <h2>Pricing?</h2><br>
-             <p><b>No.</b> This tool is completely <b><u>free</u></b> and will remain so.<br> You can use it as you wish!</p>
+             <p><span class="bold">No.</span> This tool is completely <span class="bold underline">free</span> and will remain so.<br> You can use it as you wish!</p>
             <span>
           </div>
           <div class="tabs__panel-card">
            <span>
             <h2>Archive</h2><br>
-              <p>WP2Ebook Stores Ebooks downloaded, to the archive. If you wish, you can search old ebooks there.<br><br>If you think an ebook you are trying to download isn't properly updated/contains old content, try check the box, "Force Update", in Settings</p>
+              <p>FreeFiction Stores Ebooks downloaded, to the archive. If you wish, you can search old ebooks there.<br><br>If you think an ebook you are trying to download isn't properly updated/contains old content, try check the box, "Force Update", in Settings</p>
             <span>
           </div>
           <div class="tabs__panel-card">
            <span>
-            <h2>blabla</h2><br>
-              <p>lorem ipsum dolor si amet</p>
+            <h2>FanFiction.net Not Working!</h2><br>
+              <p>Fortunately and unfortunately, FanFiction.net took strong measures to block access on their sites to bots. That is because most bots were behind "spam" compains, via personal messages. The second reason FanFiction.net did this, is to prevent <a href="https://en.wikipedia.org/wiki/Denial-of-service_attack" target="_blank" class="bold underline">DDoS Attacks</a>. However, this means our <span class="italic">bots</span> are blocked too. I found few solutions, however none are permanent. Stay tuned, until I find another solution. An idea is to use a browser extension or make use of sites that has archived old FanFictions.</p>
+            <span>
+          </div>
+          <div class="tabs__panel-card">
+           <span>
+            <h2>Your favorite FanFiction site isn't supported?</h2><br>
+              <p>Most FanFiction sites don't long to long to be added! Just give me the idea, and I will look into it. The good news is, it takes ruffly <span class="italic">1 day</span> in general to add a new supported site! You can drop an issue on the repo (link above), and I will fix that.</p>
+            <span>
+          </div>
+          <div class="tabs__panel-card">
+           <span>
+            <h2>Are you a developper?</h2><br>
+              <p>If you are willing, you can help this tool get better!<br>How?<br>Simple, you make make a fork, on my GitHub, and do anything you want: improve it, add a feature(s), fix a bug(s)... Then, you only need to make a merge request. After that, I will check the changes, and if all go well, you will be included in the collaborator of this project, and I will update this website. Your changes will also be reflected on the GitHub Repo. </p>
             <span>
           </div>
           <div class="tabs__panel-card">
@@ -170,10 +182,6 @@
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script  src="./script.js"></script>
-<script src="js/errorHandler.js"></script>
-<script src="js/functions.js"></script>
-<script src="js/ajax.functions.js"></script>
-<script src="js/main.js"></script>
 <script>
 
 setTimeout(function(){

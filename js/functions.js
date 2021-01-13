@@ -113,28 +113,14 @@ function addPct(pct)
     if (!isNumber(pct))
         return;
 
-    var old = parseFloat($(".convert-progress .progress .progress-bar").attr("aria-valuenow"));
+    var old = getProgress();
 
-    setPct(old + pct);
+    move_progress("#progress",(old + pct).toString());
 }
 
 function setPct(pct)
 {
-    pct = parseFloat(pct);
-    if (!isNumber(pct))
-        return;
-
-    var progress = $(".convert-progress .progress .progress-bar");
-
-    if (progress.attr("aria-valuenow") > 100)
-        progress.attr("aria-valuenow", 100);
-
-    if (progress.attr("aria-valuenow") < 0)
-        progress.attr("aria-valuenow", 0);
-
-    progress.attr("aria-valuenow", pct);
-
-    progress.css({width: pct + "%" });
+move_progress("#progress",(pct).toString());
 }
 
 function isNumber(obj)

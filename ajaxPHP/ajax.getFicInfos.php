@@ -1,26 +1,26 @@
 <?php
+//header('Content-Type: application/json; charset=UTF-8');
+header('Content-type: text/plain; charset=utf-8');
 require_once("../sqlSession.php");
 require_once("../class/class.FanFiction.php");
 require_once("../class/class.ErrorHandler.php");
 require_once("../class/class.FileManager.php");
 require_once("../class/class.dbHandler.php");
-
 session_start();
-header('Content-type: application/json');
 
 
 $error = new ErrorHandler();
 
-if (!isset($_POST["url"]))
+if (!isset($_REQUEST["url"]))
     $error->addNew(ErrorCode::ERROR_CRITICAL, "No URL entered.");
 
 
-$fic = new FanFiction($_POST["url"], $error);
+$fic = new FanFiction($_REQUEST["url"], $error);
 
 $return = Array();
 $exist = false;
 
-if (!isset($_POST["force"]) || $_POST["force"] === "false")
+if (!isset($_REQUEST["force"]) || $_REQUEST["force"] === "false")
 {
     try
     {
@@ -59,6 +59,15 @@ $return["updated"] = $fic->ficHandler()->getUpdatedDate();
 $return["error"] = $error->getAllAsJSONReady();
 
 
+        $return["title"] = utf8_encode(preg_replace_callback('/\\\\u([0-9a-fA-F]{4})/', function ($match) {
+            return mb_convert_encoding(pack('H*', $match[1]), 'UTF-8', 'UCS-2BE');
+        }, $return["title"]));
+        
+        $return["author"] = utf8_encode(preg_replace_callback('/\\\\u([0-9a-fA-F]{4})/', function ($match) {
+            return mb_convert_encoding(pack('H*', $match[1]), 'UTF-8', 'UCS-2BE');
+        }, $return["author"]));
+        
+
 if (!$exist)
 {
     $fm = new FileManager();
@@ -68,6 +77,8 @@ if (!$exist)
 
     $fm->createTitlePage($fic->ficHandler()->getOutputDir() . "/OEBPS/Content", $fic->ficHandler());
 }
+
+
 
 $_SESSION["encoded_fic"] = serialize($fic);
 

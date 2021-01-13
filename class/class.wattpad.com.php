@@ -18,13 +18,25 @@ class WattPad extends BaseHandler
         $info = $this->infoapi($id);
         $infosSource = $this->getPageSource($info);
 
+        $title = preg_replace_callback('/\\\\u([0-9a-fA-F]{4})/', function ($match) {
+            return mb_convert_encoding(pack('H*', $match[1]), 'UTF-8', 'UCS-2BE');
+        }, str_replace("&#x27;","'",htmlspecialchars_decode(html_entity_decode($this->popTitle($infosSource), ENT_COMPAT, "UTF-8"))));
+
+        $author = preg_replace_callback('/\\\\u([0-9a-fA-F]{4})/', function ($match) {
+            return mb_convert_encoding(pack('H*', $match[1]), 'UTF-8', 'UCS-2BE');
+        }, $this->popAuthor($info));
+        
+        $summary = preg_replace_callback('/\\\\u([0-9a-fA-F]{4})/', function ($match) {
+            return mb_convert_encoding(pack('H*', $match[1]), 'UTF-8', 'UCS-2BE');
+        }, $this->popSummary($info));
+
+        
 
         $this->getChaptersIDs($infosSource);
-        $this->setTitle(str_replace("&#x27;","'",htmlspecialchars_decode(html_entity_decode($this->popTitle($infosSource), ENT_COMPAT, "UTF-8"))));
-
-        $this->setAuthor($this->popAuthor($info));
+        $this->setTitle($title);
+        $this->setAuthor($author);
         $this->setFicType($this->popFicType($info));
-        $this->setSummary($this->popSummary($info));
+        $this->setSummary($summary);
         $this->setPublishedDate($this->popPublished($info));
         $this->setUpdatedDate($this->popUpdated($info));
         $this->setWordsCount($this->popWordsCount($info));
@@ -78,7 +90,7 @@ class WattPad extends BaseHandler
         curl_setopt($curl, CURLOPT_FOLLOWLOCATION, true);
         curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($curl, CURLOPT_URL, $url);
-        $text = curl_exec($curl);
+        $text = utf8_decode(curl_exec($curl));
         curl_close($curl);
 
 
@@ -108,7 +120,7 @@ class WattPad extends BaseHandler
         curl_setopt($curl, CURLOPT_FOLLOWLOCATION, true);
         curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($curl, CURLOPT_URL, $url);
-        $source = curl_exec($curl);
+        $source = utf8_decode(curl_exec($curl));
         curl_close($curl);
 
         if ($source === false)
@@ -127,7 +139,7 @@ class WattPad extends BaseHandler
 	    curl_setopt($curl, CURLOPT_URL, $url);
 	    curl_setopt($curl, CURLOPT_TIMEOUT, 10);
 	            
-	    $source = curl_exec($curl);
+	    $source = utf8_decode(curl_exec($curl));
 	    $info = curl_getinfo($curl);
 
 	    curl_close($curl);
@@ -155,7 +167,7 @@ class WattPad extends BaseHandler
 			curl_setopt($curl, CURLOPT_ENCODING, '');
 			curl_setopt($curl, CURLOPT_URL, $url);
 			curl_setopt($curl, CURLOPT_TIMEOUT, 10);        
-			$source = curl_exec($curl);
+			$source = utf8_decode(curl_exec($curl));
 			$info = curl_getinfo($curl);
 			curl_close($curl);
 			$source = preg_replace(array('/ {2,}/','/<!--.*?-->|\t|(?:\r?\n[ \t]*)+/s'),array(' ',''),$source); 

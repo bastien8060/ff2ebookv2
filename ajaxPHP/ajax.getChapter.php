@@ -1,4 +1,5 @@
 <?php
+ini_set('default_charset', 'UTF-8');
 require_once("../sqlSession.php");
 require_once("../class/class.FanFiction.php");
 require_once("../class/class.ErrorHandler.php");
