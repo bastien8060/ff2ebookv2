@@ -17,8 +17,12 @@ body a {
 }
 
 
-.bold,.bold*{
+.bold,.bold *{
      font-weight: 500 !important;
+}
+
+.xbold,.xbold *{
+     font-weight: 700 !important;
 }
 
 .italic,.italic *{

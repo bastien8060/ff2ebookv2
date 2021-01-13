@@ -3,7 +3,42 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type='image/x-icon' href="ico/favicon.ico"/>
     <title>FreeFiction | Download for free any WattPad FanFictions.</title>
+
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="ico/favicon.ico">
+    <link rel="apple-touch-icon" type="image/png" href="ico/apple-touch-icon.png"><!-- iPhone -->
+    <link rel="apple-touch-icon" type="image/png" sizes="72x72" href="ico/apple-touch-icon.png"><!-- iPad -->
+    <link rel="apple-touch-icon" type="image/png" sizes="114x114" href="ico/apple-touch-icon.png"><!-- iPhone4 -->
+    <link rel="icon" type="image/png" href="ico/android-chrome-192x192.png"><!-- Opera Speed Dial, at least 144×114 px -->
+
+
+
+
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="ico/apple-touch-icon.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="ico/apple-touch-icon.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="ico/apple-touch-icon.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="ico/apple-touch-icon.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="ico/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" href="ico/android-chrome-192x192.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="ico/android-chrome-192x192.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="ico/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="ico/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="ico/android-chrome-192x192.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FD8541" />
+    <meta name="msapplication-TileImage" content="ico/android-chrome-192x192.png" />
+    <meta name="msapplication-square70x70logo" content="ico/android-chrome-192x192.png" />
+    <meta name="msapplication-square150x150logo" content="ico/android-chrome-192x192.png" />
+    <meta name="msapplication-wide310x150logo" content="ico/android-chrome-192x192.png" />
+    <meta name="msapplication-square310x310logo" content="ico/android-chrome-192x192.png" />
+
+    <meta name="theme-color" content="#FD8541">
+
+
     <meta name="description" content="Convert FanFictions to ebooks for free. Works with WattPad.com, FanFiction.net, FictionPress, HPFanFicArchive & FicWad. Download the story as ePub, MOBI & on your Kindle.">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:300'>
@@ -103,7 +138,7 @@
              <img height="55px" alt="GitHub Mascotte's Icon" style="margin-left:10px" width="55px" src="https://github.githubassets.com/images/modules/logos_page/Octocat.png"/>
             <span style="margin-left:35px">
               <h2>Submit Issue/Ideas</h2><br>
-              <p>Visit my GitHub (<a target="_blank" href="https://github.com/bastien8060/ff2ebookv2/issues"><span class="bold underline">link</span></a>)</p>
+              <p>Visit my GitHub (<a target="_blank" href="https://github.com/bastien8060/ff2ebookv2/issues"><span class="xbold underline">link</span></a>)</p>
             <span>
           </div>
           <div class="tabs__panel-card">
@@ -125,19 +160,19 @@
           <div class="tabs__panel-card">
             <span>
               <h2>Not Receiving Emails on Kindle?</h2><br>
-              <p>Make sure to add ebook-sender@wattpad.cf to your spam filter or Kindle Approved Personal Document E-mail List. See <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GX9XLEVV8G4DB28H" target="_blank"><span class="bold underline">here</span></a>, how to do it.</p>
+              <p>Make sure to add ebook-sender@wattpad.cf to your spam filter or Kindle Approved Personal Document E-mail List. See <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GX9XLEVV8G4DB28H" target="_blank"><span class="xbold underline">here</span></a>, how to do it.</p>
             <span>
           </div>
           <div class="tabs__panel-card">
             <span>
               <h2>Error Fetching Chapters/Infos</h2><br>
-              <p>Please Submit an issue on GitHub (<a href="https://github.com/bastien8060/ff2ebookv2/issues" target="_blank"><span class="bold underline">here</span></a>)</p>
+              <p>Please Submit an issue on GitHub (<a href="https://github.com/bastien8060/ff2ebookv2/issues" target="_blank"><span class="xbold underline">here</span></a>)</p>
             <span>
           </div>
            <div class="tabs__panel-card">
            <span>
             <h2>Pricing?</h2><br>
-             <p><span class="bold">No.</span> This tool is completely <span class="bold underline">free</span> and will remain so.<br> You can use it as you wish!</p>
+             <p><span class="xbold">No.</span> This tool is completely <span class="xbold underline">free</span> and will remain so.<br> You can use it as you wish!</p>
             <span>
           </div>
           <div class="tabs__panel-card">
@@ -149,7 +184,7 @@
           <div class="tabs__panel-card">
            <span>
             <h2>FanFiction.net Not Working!</h2><br>
-              <p>Fortunately and unfortunately, FanFiction.net took strong measures to block access on their sites to bots. That is because most bots were behind "spam" compains, via personal messages. The second reason FanFiction.net did this, is to prevent <a href="https://en.wikipedia.org/wiki/Denial-of-service_attack" target="_blank" class="bold underline">DDoS Attacks</a>. However, this means our <span class="italic">bots</span> are blocked too. I found few solutions, however none are permanent. Stay tuned, until I find another solution. An idea is to use a browser extension or make use of sites that has archived old FanFictions.</p>
+              <p>Fortunately and unfortunately, FanFiction.net took strong measures to block access on their sites to bots. That is because most bots were behind "spam" compains, via personal messages. The second reason FanFiction.net did this, is to prevent <a href="https://en.wikipedia.org/wiki/Denial-of-service_attack" target="_blank" class="xbold underline">DDoS Attacks</a>. However, this means our <span class="italic">bots</span> are blocked too. I found few solutions, however none are permanent. Stay tuned, until I find another solution. An idea is to use a browser extension or make use of sites that has archived old FanFictions.</p>
             <span>
           </div>
           <div class="tabs__panel-card">
