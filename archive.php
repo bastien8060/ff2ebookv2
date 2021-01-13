@@ -26,8 +26,8 @@ function hasSearch($search) { return $search !== false; }
     <link rel="icon" type='image/x-icon' href="ico/favicon.ico"/>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>WP2EBOOK - The FanFiction Archive</title>
-    <meta name="description" content="WP2EBook Archive. WattPad, FanFiction Convertions Archive. Find here all precedently converted ebooks and download them to your computer for free.">
+    <title>FreeFiction - The FanFiction Archive</title>
+    <meta name="description" content="FreeFiction Archive. WattPad, FanFiction Convertions Archive. Find here all precedently converted ebooks and download them to your computer for free.">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131272468-1"></script>
     <script>
