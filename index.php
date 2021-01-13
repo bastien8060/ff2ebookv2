@@ -110,7 +110,7 @@
            <span>
             <h2>Supported Websites:</h2><br>
               <ul class="marginme">
-                <li>Wattpad.com</li>
+                <li>Wattpad.com - <button class="tags green nogap xxsmall" style="margin-bottom: 2px !important;">New</button></li></li> 
                 <li>FanFiction.com - <button class="tags red nogap xxsmall" style="margin-bottom: 2px !important;">Temporarily down</button></li>
                 <li>FictionPress.com - <button class="tags red nogap xxsmall">Temporarily down</button></li>
                 <li>FictionHunt.com</li>
