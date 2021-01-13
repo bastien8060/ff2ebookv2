@@ -6,13 +6,23 @@
     <link rel="icon" type='image/x-icon' href="ico/favicon.ico"/>
     <title>FreeFiction | Download for free any WattPad FanFictions.</title>
 
+    <meta name="description" content="Convert FanFictions to ebooks for free. Works with WattPad.com, FanFiction.net, FictionPress, HPFanFicArchive & FicWad. Download the story as ePub, MOBI & on your Kindle.">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:300'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'><link rel="stylesheet" href="./style.css">
+    <meta name="keywords" content="Wattpad, Wattpad Downloader, Wattpad to Epub, FanFiction, FanFiction Downloader, Epub">
+
+    <meta name="theme-color" content="#FD8541">
+    <meta name="msapplication-navbutton-color" content="#FD8541">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#FD8541">
+    <meta name="application-name" content="FreeFiction"/>
+
+
     <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="ico/favicon.ico">
     <link rel="apple-touch-icon" type="image/png" href="ico/apple-touch-icon.png"><!-- iPhone -->
     <link rel="apple-touch-icon" type="image/png" sizes="72x72" href="ico/apple-touch-icon.png"><!-- iPad -->
     <link rel="apple-touch-icon" type="image/png" sizes="114x114" href="ico/apple-touch-icon.png"><!-- iPhone4 -->
     <link rel="icon" type="image/png" href="ico/android-chrome-192x192.png"><!-- Opera Speed Dial, at least 144×114 px -->
-
-
 
 
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="ico/apple-touch-icon.png" />
@@ -23,12 +33,6 @@
     <link rel="apple-touch-icon-precomposed" sizes="120x120" href="ico/apple-touch-icon.png" />
     <link rel="apple-touch-icon-precomposed" sizes="76x76" href="ico/apple-touch-icon.png" />
     <link rel="apple-touch-icon-precomposed" sizes="152x152" href="ico/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" href="ico/android-chrome-192x192.png" sizes="196x196" />
-    <link rel="icon" type="image/png" href="ico/android-chrome-192x192.png" sizes="96x96" />
-    <link rel="icon" type="image/png" href="ico/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="ico/favicon-16x16.png" sizes="16x16" />
-    <link rel="icon" type="image/png" href="ico/android-chrome-192x192.png" sizes="128x128" />
-    <meta name="application-name" content="FreeFiction"/>
     <meta name="msapplication-TileColor" content="#FD8541" />
     <meta name="msapplication-TileImage" content="ico/android-chrome-192x192.png" />
     <meta name="msapplication-square70x70logo" content="ico/android-chrome-192x192.png" />
@@ -36,15 +40,10 @@
     <meta name="msapplication-wide310x150logo" content="ico/android-chrome-192x192.png" />
     <meta name="msapplication-square310x310logo" content="ico/android-chrome-192x192.png" />
 
-    <meta name="theme-color" content="#FD8541">
-    <meta name="msapplication-navbutton-color" content="#FD8541">
-    <meta name="apple-mobile-web-app-status-bar-style" content="#FD8541">
 
 
-    <meta name="description" content="Convert FanFictions to ebooks for free. Works with WattPad.com, FanFiction.net, FictionPress, HPFanFicArchive & FicWad. Download the story as ePub, MOBI & on your Kindle.">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:300'>
-    <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'><link rel="stylesheet" href="./style.css">
+
+
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-L8DTX7VT5V"></script>
@@ -192,7 +191,7 @@
           <div class="tabs__panel-card">
            <span>
             <h2>Your favorite FanFiction site isn't supported?</h2><br>
-              <p>Most FanFiction sites don't long to long to be added! Just give me the idea, and I will look into it. The good news is, it takes ruffly <span class="italic">1 day</span> in general to add a new supported site! You can drop an issue on the repo (link above), and I will fix that.</p>
+              <p>Most FanFiction sites don't take long to be added! Just give me the idea, and I will look into it. The good news is, it takes ruffly <span class="italic">1 day</span> in general to add a new supported site! You can drop an issue on the repo (link above), and I will fix that.</p>
             <span>
           </div>
           <div class="tabs__panel-card">
