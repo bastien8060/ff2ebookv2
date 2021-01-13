@@ -124,7 +124,7 @@ class Epub
         $author = htmlspecialchars_decode(html_entity_decode($author, ENT_COMPAT, "UTF-8"));
         $summary = htmlspecialchars_decode(html_entity_decode($summary, ENT_COMPAT, "UTF-8"));
         $title = str_replace("&#x27;","'",$title);
-
+        $title = str_replace("&#039;","'",$title);
         $title = str_replace("&#x27;","'",$title);
 
 

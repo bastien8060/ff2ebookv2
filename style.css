@@ -1037,6 +1037,11 @@ body {
   color:white;
 }
 
+.tags.orange{
+  background-color: #FEBE10;
+  color:white;
+}
+
 .tags.green{
   background-color:#32de84;
   color:white;

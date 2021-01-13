@@ -6,6 +6,7 @@ require_once __DIR__."/class.hpffa.com.php";
 require_once __DIR__."/class.fh.com.php";
 require_once __DIR__."/class.wattpad.com.php";
 require_once __DIR__."/class.ficwad.com.php";
+require_once __DIR__."/class.fictionhunt.com.php";
 require_once __DIR__."/class.ErrorHandler.php";
 
 
@@ -18,6 +19,7 @@ function bypass_cf($url="null"){ //added function to pass requests to python.
     $source = shell_exec($command);
     return $source;
 }
+
 
 
 abstract class FanFictionSite
@@ -61,9 +63,15 @@ class FanFiction
                 break;
 
             case FanFictionSite::FFnet:
-                $this->handler = new FFnet($this->getURL(), $this->error);
-                $this->source = "ffnet";
-                break;
+                if ($_COOKIE["usingArchive"] == "true"){
+                    $this->handler = new FHunt($this->getURL(), $this->error);
+                    $this->source = "ffnet";
+                    break;
+                }else{
+                    $this->handler = new FFnet($this->getURL(), $this->error);
+                    $this->source = "ffnet";
+                    break;
+                }
 
             case FanFictionSite::HPFF:
                 $this->handler = new HPFF($this->getURL(), $this->error);

@@ -100,6 +100,7 @@
           <div class="tabs__panel-card">
             <span>
             <label><span class="marginme"><input id="force-update" type="checkbox"/></span><span class="centerme">Force Update</span></label><br><br>
+            <label><span class="marginme"><input id="use_archive" type="checkbox"/></span><span class="centerme">Use FanFiction.net Archive (Sometime works)</span></label><br><br>
             <label><span class="marginme"><input id="auto-dl" type="checkbox" checked="true"/></span><span class="centerme">Automatic Download</span></label>
               </span>
           </div>
@@ -147,7 +148,7 @@
             <h2>Supported Websites:</h2><br>
               <ul class="marginme">
                 <li>Wattpad.com - <button class="tags green nogap xxsmall" style="margin-bottom: 2px !important;">New</button></li></li> 
-                <li>FanFiction.com - <button class="tags red nogap xxsmall" style="margin-bottom: 2px !important;">Temporarily down</button></li>
+                <li>FanFiction.com - <button class="tags orange nogap xxsmall" style="margin-bottom: 2px !important;">Partly Fixed</button></li>
                 <li>FictionPress.com - <button class="tags red nogap xxsmall">Temporarily down</button></li>
                 <li>FictionHunt.com</li>
                 <li>FicWad.com</li>

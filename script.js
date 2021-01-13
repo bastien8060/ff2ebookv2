@@ -447,6 +447,7 @@ function disableForm(bool)
     $("#fic-input-submit").attr("disabled", bool);
     $("#filetype").attr("disabled", bool);
     $("#auto-dl").attr("disabled", bool);
+    $("#use_archive").attr("disabled", bool);
     $("#force-update").attr("disabled", bool);
     $("#kindle-email").attr("disabled", bool);
 }
@@ -493,6 +494,10 @@ function isNumber(obj)
 function hasAutoDownload()
 {
     return $("#auto-dl").is(':checked');
+}
+
+function isUsingArchive(){
+    return $("#use_archive").is(':checked');
 }
 
 function downloadLink(source, id, linkText)
@@ -542,7 +547,7 @@ ________________________________________________________________________________
 
 function ajax_saveCookies()
 {
-    var /*vSplit, vFont, */vFiletype, vEmail, vAutoDL;
+    var /*vSplit, vFont, */vFiletype, vEmail, vAutoDL, vUseArchive;
 
     /*vSplit = $("#is-split").prop("checked");
     vFont = $("#fonttype").find(":selected").val();*/
@@ -553,12 +558,13 @@ function ajax_saveCookies()
 
     vEmail = $("#kindle-email").val();
     vAutoDL = hasAutoDownload();
+    vUseArchive = isUsingArchive();
 
     $.ajax
     ({
         url: "ajaxPHP/ajax.saveCookies.php",
         method: "POST",
-        data: { /*isSplit: vSplit, font: vFont,*/ filetype: vFiletype, email: vEmail, autodl: vAutoDL },
+        data: { /*isSplit: vSplit, font: vFont,*/ filetype: vFiletype, email: vEmail, autodl: vAutoDL, usingArchive: vUseArchive},
         dataType: "json"
     });
 
@@ -592,6 +598,10 @@ function ajax_loadOptionsCookies()
 
         if (data.email)
             $("#kindle-email").val(data.email);
+
+        if (data.useArchive){
+            $("#use_archive").prop('checked', data.useArchive == "true");
+        }
 
         if (data.autodl)
             $("#auto-dl").prop('checked', data.autodl == "true");

@@ -22,8 +22,11 @@ class FFnet extends BaseHandler
         $this->setFicId($this->popFicId());
 
         $infosSource = $this->getPageSource(1, false);
-        $this->setTitle($this->popTitle($infosSource));
+        
 
+        $title = str_replace("&#039;","'",$this->popTitle($infosSource));
+
+        $this->setTitle($title);
         $this->setAuthor($this->popAuthor($infosSource));
         $this->setFicType($this->popFicType($infosSource));
         $this->setSummary($this->popSummary($infosSource));

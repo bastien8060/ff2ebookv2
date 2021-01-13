@@ -21,3 +21,6 @@ if (isset($_POST["email"]))
 
 if (isset($_POST["autodl"]))
     setcookie("autodl", $_POST["autodl"], time()+SEC_TIME_MONTH);
+
+if (isset($_POST["usingArchive"]))
+    setcookie("usingArchive", $_POST["usingArchive"], time()+SEC_TIME_MONTH);
