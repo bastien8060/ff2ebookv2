@@ -61,7 +61,7 @@
         gtag('config', 'G-L8DTX7VT5V');
       }else{
         localStorage.notrack="!True"
-        localStorage.tracked = falseP;
+        localStorage.tracked = false;
       }
     </script>
 
