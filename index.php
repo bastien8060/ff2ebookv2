@@ -22,7 +22,7 @@
     <meta property="og:image:alt" content="With FreeFiction, It becomes easier to Download FanFictions!" />
 
     <meta name="description" content="Convert FanFiction to ebook for free. Works for WattPad.com, FanFiction.net, FictionPress, FicWad... Download the story as ePub & Kindle books.">
-    <meta property="og:description" content="Convert FanFiction to ebook for free. Works for WattPad.com, FanFiction.net, FictionPress, FicWad... Download the story as ePub & Kindle books." />
+    <meta property="og:description" content="Convert FanFictions like WattPad.com, FanFiction.net, FictionPress... Download the story as ePub & Kindle books." />
     <meta name="keywords" content="Wattpad, Wattpad Downloader, Wattpad to Epub, FanFiction, FanFiction Downloader, Epub">
 
     <link rel="stylesheet" href="./style.css">
