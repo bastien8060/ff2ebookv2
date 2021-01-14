@@ -6,7 +6,7 @@
     <link rel="icon" type='image/x-icon' href="ico/favicon.ico"/>
     <title>FreeFiction | Download for free any WattPad FanFictions.</title>
 
-    <meta name="description" content="Convert FanFictions to ebooks for free. Works with WattPad.com, FanFiction.net, FictionPress, HPFanFicArchive & FicWad. Download the story as ePub, MOBI & on your Kindle.">
+    <meta name="description" content="Convert FanFiction to ebook for free. Works with WattPad.com, FanFiction.net, FictionPress, HPFanFicArchive & FicWad. Download the story as ePub & Kindle books.">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:300'>
     <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'><link rel="stylesheet" href="./style.css">
