@@ -50,8 +50,9 @@
     <script>
       localStorage.tracked = false;
       var host = window.location.hostname;
-      if((host != "localhost"&&host!="127.0.0.1")||localStorage.notrack!="!True")
-      {
+      if((host == "localhost"||host=="127.0.0.1"))
+      {localStorage.notrack="!True"}
+      if (localStorage.notrack!="!True"){
         localStorage.tracked = true;
         localStorage.notrack="!False"
         window.dataLayer = window.dataLayer || [];
