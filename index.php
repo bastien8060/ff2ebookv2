@@ -5,7 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type='image/x-icon' href="ico/favicon.ico"/>
     <title>FreeFiction | Download any WattPad FanFictions for free.</title>
+    <meta property="og:title" content="FreeFiction | Download any WattPad FanFictions for free." />
+    <meta property="og:url" content=”http://freefiction.cf” />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:locale:alternate" content="en_USs" />
+    <meta property="og:site_name" content="FreeFiction" />
+
+    <meta name="twitter:site" content="#FreeFiction" />
+    <meta name="twitter:card" value="Download any WattPad FanFictions for free." />
+    <meta name="twitter:image" content="https://freefiction.cf/fanfiction.jpg" />
+    <meta property="og:image" content="https://freefiction.cf/fanfiction.jpg" />
+    <meta property="og:image:secure_url" content="https://freefiction.cf/fanfiction.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="250" />
+    <meta property="og:image:height" content="167" />
+    <meta property="og:image:alt" content="With FreeFiction, It becomes easier to Download FanFictions!" />
+
     <meta name="description" content="Convert FanFiction to ebook for free. Works for WattPad.com, FanFiction.net, FictionPress, FicWad... Download the story as ePub & Kindle books.">
+    <meta property="og:description" content="Convert FanFiction to ebook for free. Works for WattPad.com, FanFiction.net, FictionPress, FicWad... Download the story as ePub & Kindle books." />
     <meta name="keywords" content="Wattpad, Wattpad Downloader, Wattpad to Epub, FanFiction, FanFiction Downloader, Epub">
 
     <link rel="stylesheet" href="./style.css">
@@ -149,7 +166,7 @@
              <img height="55px" alt="GitHub Mascotte's Icon" style="margin-left:10px" width="55px" src="https://github.githubassets.com/images/modules/logos_page/Octocat.png"/>
             <span style="margin-left:35px">
               <h2>Submit Issue/Ideas</h2><br>
-              <p>Visit my GitHub (<a target="_blank" href="https://github.com/bastien8060/ff2ebookv2/issues"><span class="xbold underline">link</span></a>)</p>
+              <p>Visit my GitHub (<a title="FreeFiction's GitHub Repo" target="_blank" href="https://github.com/bastien8060/ff2ebookv2/issues"><span class="xbold underline">link</span></a>)</p>
             <span>
           </div>
           <div class="tabs__panel-card">
@@ -178,14 +195,14 @@
           <div class="tabs__panel-card">
             <span>
               <h2>Downloaded FanFiction has not the latest Chapters/Recent Update is missing?</h2><br>
-              <p>Like explained below, FanFiction.net has started to block bots, which means it would be hard to get the chapters. <br><br>For this reason, I have introduced support for the "FanFiction.net Archive". <br><br>Note that it is not exactly the same as the <a target="_blank" class="xbold underline" href="https://freefiction.cf/archive.php">FreeFiction Archive</a>. <br><br>The FreeFiction archive is an archive of all previously downloaded Fictions on this site. However, the FanFiction.net is an archive from <span class="underline">FictionHunt.com</span>, which contains about 670,000 different FanFictions. It doesn't contain them all.<br><br> While it is good, in the meantime I find out how to make FanFiction.net work again, it isn't perfect. Updates from author may not come through.<br><br>You can disable the FanFiction.net Archive support in "Settings". </p>
+              <p>Like explained below, FanFiction.net has started to block bots, which means it would be hard to get the chapters. <br><br>For this reason, I have introduced support for the "FanFiction.net Archive". <br><br>Note that it is not exactly the same as the <a title="Holy Archive" target="_blank" class="xbold underline" href="https://freefiction.cf/archive.php">FreeFiction Archive</a>. <br><br>The FreeFiction archive is an archive of all previously downloaded Fictions on this site. However, the FanFiction.net is an archive from <span class="underline">FictionHunt.com</span>, which contains about 670,000 different FanFictions. It doesn't contain them all.<br><br> While it is good, in the meantime I find out how to make FanFiction.net work again, it isn't perfect. Updates from author may not come through.<br><br>You can disable the FanFiction.net Archive support in "Settings". </p>
             <span>
           </div>
 
           <div class="tabs__panel-card">
             <span>
               <h2>Not Receiving Emails on Kindle?</h2><br>
-              <p>Make sure to add ebook-sender@wattpad.cf to your spam filter or Kindle Approved Personal Document E-mail List. See <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GX9XLEVV8G4DB28H" target="_blank"><span class="xbold underline">Amazon's Guide</span></a>, how to do it.</p>
+              <p>Make sure to add ebook-sender@wattpad.cf to your spam filter or Kindle Approved Personal Document E-mail List. See <a title="Amazon's Guide to Whitelist an email for Kindle." href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GX9XLEVV8G4DB28H" target="_blank"><span class="xbold underline">Amazon's Guide</span></a>, how to do it.</p>
             <span>
           </div>
            <div class="tabs__panel-card">
@@ -203,13 +220,13 @@
           <div class="tabs__panel-card">
            <span>
             <h2>FanFiction.net Not Working!</h2><br>
-              <p>Fortunately and unfortunately, FanFiction.net took strong measures to block access on their sites to bots. That is because most bots were behind "spam" compains, via personal messages. The second reason FanFiction.net did this, is to prevent <a href="https://en.wikipedia.org/wiki/Denial-of-service_attack" target="_blank" class="xbold underline">DDoS Attacks</a>. However, this means our <span class="italic">bots</span> are blocked too. I found few solutions, however none are permanent. Stay tuned, until I find another solution. An idea is to use a browser extension or make use of sites that has archived old FanFictions.<br><br><span class="xbold underline">Tl;Dr</span><br><br><span class="xbold">You can try to use the Archive Option in settings and it may work!</span></p>
+              <p>Fortunately and unfortunately, FanFiction.net took strong measures to block access on their sites to bots. That is because most bots were behind "spam" compains, via personal messages. The second reason FanFiction.net did this, is to prevent <a title="DDoS Explanation on WikiPedia.com" href="https://en.wikipedia.org/wiki/Denial-of-service_attack" target="_blank" class="xbold underline">DDoS Attacks</a>. However, this means our <span class="italic">bots</span> are blocked too. I found few solutions, however none are permanent. Stay tuned, until I find another solution. An idea is to use a browser extension or make use of sites that has archived old FanFictions.<br><br><span class="xbold underline">Tl;Dr</span><br><br><span class="xbold">You can try to use the Archive Option in settings and it may work!</span></p>
             <span>
           </div>
           <div class="tabs__panel-card">
             <span>
               <h2>Error Fetching Chapters/Infos</h2><br>
-              <p>Please Submit an issue on GitHub (<a href="https://github.com/bastien8060/ff2ebookv2/issues" target="_blank"><span class="xbold underline">On the repo page</span></a>)</p>
+              <p>Please Submit an issue on GitHub (<a title="Project's Repo Page" href="https://github.com/bastien8060/ff2ebookv2/issues" target="_blank"><span class="xbold underline">On the repo page</span></a>)</p>
             <span>
           </div>
           <div class="tabs__panel-card">
@@ -257,10 +274,10 @@
   </div>
 </div>
 <div id="mySidenav" class="sidenav hidden-xs hidden-sm" onclick="">
-  <a target="_blank" href="https://github.com/bastien8060/" id="about"><i class="fab fa-github"></i></a>
-  <a target="_blank" href="https://www.reddit.com/user/oscar_hauey" id="blog"><i class="fab fa-reddit"></i></a>
-  <a target="_blank" id="projects" href="https://www.instagram.com/bstnccs/"><i class="fab fa-instagram"></i></a>
-  <a target="_blank" id="contact" href="https://www.youtube.com/channel/UCrh-xCZR6rSDO6LdzpliS5g"><i class="fab fa-youtube"></i></a>
+  <a title="Check on Github" target="_blank" href="https://github.com/bastien8060/" id="about"><i class="fab fa-github"></i></a>
+  <a title="Check on Reddit" target="_blank" href="https://www.reddit.com/user/oscar_hauey" id="blog"><i class="fab fa-reddit"></i></a>
+  <a title="Check on instagram" target="_blank" id="projects" href="https://www.instagram.com/bstnccs/"><i class="fab fa-instagram"></i></a>
+  <a title="Check on YouTube" target="_blank" id="contact" href="https://www.youtube.com/channel/UCrh-xCZR6rSDO6LdzpliS5g"><i class="fab fa-youtube"></i></a>
 </div>
 </body>
 </html>
