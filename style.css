@@ -4,6 +4,24 @@
     box-sizing: border-box;
 }
 
+
+
+
+
+
+.linksshare li {
+  font-size: 17px;
+  cursor: pointer;
+   list-style-type: none;
+    list-style: none;
+}
+
+.linksshare li:hover {
+  text-decoration: underline;
+}
+
+
+
 body {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
@@ -1200,4 +1218,94 @@ body {
   direction: ltr;
   -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
+}
+
+
+/* fixed side social buttons */
+#mySidenav a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -60px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 10px !important; /* 15px padding */
+  width: 50px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  margin-top: 5%;
+  position: fixed;
+  z-index: 1;
+  padding: none !important;
+  box-sizing: content-box;
+}
+
+#mySidenav a:hover {
+  left: 0;
+    margin: none !important;
+  padding: none !important;
+  box-sizing: content-box !important;
+}
+/* The about link: 20px from the top with a green background */
+#mySidenav .fa-github,
+.fa-reddit,
+.fa-instagram,
+.fa-youtube {
+  margin-left: 15px;
+  font-size: 30px;
+  padding: none !important;
+  box-sizing: content-box !important;
+}
+#about {
+  top: 20px;
+  background-color: #333;
+      margin: none !important;
+  padding: none !important;
+  box-sizing: content-box !important;
+}
+#blog {
+  top: 80px;
+  background-color: #FF5700;
+      margin: none !important;
+  padding: none !important;
+  box-sizing: content-box !important;
+}
+#projects {
+  top: 140px;
+  background-color: #d047d1;
+      margin: none !important;
+  padding: none !important;
+  box-sizing: content-box !important;
+}
+#contact {
+  top: 200px;
+  background-color: red;
+      margin: none !important;
+  padding: none !important;
+  box-sizing: content-box !important;
+}
+
+/* Make the icon Spin OPTIONAL */
+
+.fa-github,
+.fa-reddit,,
+.fa-youtube {
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Safari and Chrome */
+  -o-transform: rotate(0deg); /* Opera */
+  -moz-transform: rotate(0deg); /* Firefox */
+  transform: rotate(0deg);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.fa-reddit:hover,
+.fa-github:hover,
+.fa-youtube:hover,
+.fa-instagram:hover {
+  -ms-transform: rotate(360deg); /* IE 9 */
+  -webkit-transform: rotate(360deg); /* Safari and Chrome */
+  -o-transform: rotate(360deg); /* Opera */
+  -moz-transform: rotate(360deg); /* Firefox */
+  transform: rotate(360deg);
+  transition: all 0.3s;
 }
