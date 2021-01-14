@@ -12,7 +12,7 @@
     <meta property="og:site_name" content="FreeFiction" />
 
     <meta name="twitter:site" content="#FreeFiction" />
-    <meta name="twitter:card" value="Download any WattPad FanFictions for free." />
+    <meta name="twitter:card" value="summary_large_image" />
     <meta name="twitter:image" content="https://freefiction.cf/fanfiction.jpg" />
     <meta property="og:image" content="https://freefiction.cf/fanfiction.jpg" />
     <meta property="og:image:secure_url" content="https://freefiction.cf/fanfiction.jpg" />
