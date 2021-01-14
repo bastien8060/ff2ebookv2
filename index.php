@@ -50,7 +50,7 @@
     <script>
       localStorage.tracked = false;
       var host = window.location.hostname;
-      if((host != "localhost"&&host!="127.0.0.1")||localStorage.notrack=="!True")
+      if((host != "localhost"&&host!="127.0.0.1")||localStorage.notrack!="!True")
       {
         localStorage.tracked = true;
         localStorage.notrack="!False"
@@ -61,7 +61,7 @@
         gtag('config', 'G-L8DTX7VT5V');
       }else{
         localStorage.notrack="!True"
-        localStorage.tracked = false;
+        localStorage.tracked = falseP;
       }
     </script>
 
