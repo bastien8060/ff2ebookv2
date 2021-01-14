@@ -49,8 +49,9 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-L8DTX7VT5V"></script>
     <script>
       var host = window.location.hostname;
-      if(host != "localhost"&&host!="127.0.0.1")
+      if((host != "localhost"&&host!="127.0.0.1")||localStorage.notrack=="!True")
       {
+        localStorage.notrack="!True"
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
