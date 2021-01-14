@@ -48,15 +48,20 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-L8DTX7VT5V"></script>
     <script>
+      localStorage.tracked = false;
       var host = window.location.hostname;
       if((host != "localhost"&&host!="127.0.0.1")||localStorage.notrack=="!True")
       {
-        localStorage.notrack="!True"
+        localStorage.tracked = true;
+        localStorage.notrack="!False"
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
         gtag('config', 'G-L8DTX7VT5V');
+      }else{
+        localStorage.notrack="!True"
+        localStorage.tracked = false;
       }
     </script>
 
