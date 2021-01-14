@@ -4,7 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type='image/x-icon' href="ico/favicon.ico"/>
-    <title>FreeFiction | Download for free any WattPad FanFictions.</title>
+    <title>FreeFiction | Download any WattPad FanFictions for free.</title>
     <meta name="description" content="Convert FanFiction to ebook for free. Works for WattPad.com, FanFiction.net, FictionPress, FicWad... Download the story as ePub & Kindle books.">
     <meta name="keywords" content="Wattpad, Wattpad Downloader, Wattpad to Epub, FanFiction, FanFiction Downloader, Epub">
 
