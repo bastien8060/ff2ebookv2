@@ -11,6 +11,7 @@
     <meta property="og:locale:alternate" content="en_USs" />
     <meta property="og:site_name" content="FreeFiction" />
 
+    <meta property="og:type" content="website"/>
     <meta name="twitter:site" content="#FreeFiction" />
     <meta name="twitter:card" value="summary_large_image" />
     <meta name="twitter:image" content="https://freefiction.cf/fanfiction.jpg" />
@@ -117,7 +118,7 @@
           </div>
           <div class="tabs__panel-card__no_padding_hidden">
                 <button id="fic-input-submit" class="rkmd-btn btn-orange download_btn ripple-effect"><i class="material-icons">file_download</i>Download</button>
-          </div><br><br><center><div class="centerme" id="status-text"></div></center>
+          </div><br><br><span class="textcenter"><div class="centerme" id="status-text"></div></span>
       </form>
         </div>
         <!--single panel-->
@@ -163,8 +164,8 @@
         <!--single panel-->
         <div class="tabs__panel">
           <div class="tabs__panel-card">
-             <img height="55px" alt="GitHub Mascotte's Icon" style="margin-left:10px" width="55px" src="https://github.githubassets.com/images/modules/logos_page/Octocat.png"/>
-            <span style="margin-left:35px">
+             <img class="custom1" height="55px" alt="GitHub Mascotte's Icon" width="55px" src="https://github.githubassets.com/images/modules/logos_page/Octocat.png"/>
+            <span class="custom2">
               <h2>Submit Issue/Ideas</h2><br>
               <p>Visit my GitHub (<a title="FreeFiction's GitHub Repo" target="_blank" href="https://github.com/bastien8060/ff2ebookv2/issues"><span class="xbold underline">link</span></a>)</p>
             <span>
@@ -173,13 +174,13 @@
            <span>
             <h2>Supported Websites:</h2><br>
               <ul class="marginme">
-                <li>Wattpad.com - <button class="tags green nogap xxsmall" style="margin-bottom: 2px !important;">New</button></li></li> 
-                <li>FanFiction.com - <button class="tags orange nogap xxsmall" style="margin-bottom: 2px !important;">Partly Fixed</button></li>
+                <li>Wattpad.com - <button class="tags green nogap xxsmall custom3">New</button></li></li> 
+                <li>FanFiction.com - <button class="tags orange nogap xxsmall custom4">Partly Fixed</button></li>
                 <li>FictionPress.com - <button class="tags red nogap xxsmall">Temporarily down</button></li>
                 <li>FictionHunt.com</li>
                 <li>FicWad.com</li>
                 <li>HPFanFicArchive.com</li>
-                <li>HarryPotterFanFiction.com <span style="font-size:11px;">(Use URL finishing with /viewstory.php?psid=######)</span></li>
+                <li>HarryPotterFanFiction.com <span class="custom5">(Use URL finishing with /viewstory.php?psid=######)</span></li>
 
              </ul>
                

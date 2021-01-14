@@ -5,9 +5,28 @@
 }
 
 
+.textcenter{
+    text-align: center;
+}
 
+.custom1{
+    margin-left:10px
+}
+.custom2{
+    margin-left:35px
+}
 
+.custom3{
+    margin-bottom: 2px !important;
+}
 
+.custom4{
+    margin-bottom: 2px !important;
+}
+
+.custom5{
+    font-size:11px;
+}
 
 .linksshare li {
   font-size: 17px;
