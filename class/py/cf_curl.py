@@ -67,10 +67,10 @@ proxies = [
 	"https://103.115.14.153:80",
 	"https://169.57.157.148:25",
 	"https://159.8.114.37:80",
-	"https://vpnjantit:xs9yk@sq-au1.vpnjantit.com:8080",
-	"https://vpnjantit:xs9yk@sq-au1.vpnjantit.com:3128",
-	"https://vpnjantit:mat6k@sq-uk1.vpnjantit.com:8080",
-	"https://vpnjantit:mat6k@sq-uk1.vpnjantit.com:3128",
+	"https://vpnjantit:7rd2v@sq-au1.vpnjantit.com:8080",
+	"https://vpnjantit:7rd2v@sq-au1.vpnjantit.com:3128",
+	"https://vpnjantit:jr7c0@sq-uk1.vpnjantit.com:8080",
+	"https://vpnjantit:jr7c0@sq-uk1.vpnjantit.com:3128",
 	#"socks5://localhost:8070",
 	#"https://169.57.1.84:8123", #seems unstable __/--(:/)--\__
 	"https://159.8.114.34:8123",
@@ -217,8 +217,11 @@ def scrape(proxyDict,usedproxy):
 		scraper = cfscrape.create_scraper(delay=10)  # returns a CloudflareScraper instance
 		toreturn = scraper.get(url,proxies=proxyDict).content
 		#print(proxyDict)
-		tokens, user_agent = scraper.get_tokens(url, proxies=proxyDict)
-		cfadd(usedproxy, tokens)
+		try:
+			tokens, user_agent = scraper.get_tokens(url, proxies=proxyDict)
+			cfadd(usedproxy, tokens)
+		except:
+			pass
 		#print("LAST:",lastproxy)
 		#get cookie
 		return toreturn

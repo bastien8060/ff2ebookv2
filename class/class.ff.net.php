@@ -13,7 +13,9 @@ class FFnet extends BaseHandler
         }
         $command = 'python3 py/cf_curl.py '+$url;
         $command = escapeshellcmd($command);
-        return shell_exec($command);
+        $val = shell_exec($command);
+        echo $val;
+        return $val;
     }
 
     function populate()

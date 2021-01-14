@@ -48,11 +48,15 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-L8DTX7VT5V"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      var host = window.location.hostname;
+      if(host != "localhost"&&host!="127.0.0.1")
+      {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-      gtag('config', 'G-L8DTX7VT5V');
+        gtag('config', 'G-L8DTX7VT5V');
+      }
     </script>
 
 </head>

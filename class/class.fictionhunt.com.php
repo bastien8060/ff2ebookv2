@@ -115,7 +115,7 @@ class FHunt extends BaseHandler
         curl_close($curl);
 
         if ($source === false)
-            $this->errorHandler()->addNew(ErrorCode::ERROR_CRITICAL, "Couldn't get main source from FictionHunt.");
+            $this->errorHandler()->addNew(ErrorCode::ERROR_CRITICAL, "Couldn't get main source from FictionHunt ($url).");
         
         return $source;
     }
@@ -197,11 +197,13 @@ class FHunt extends BaseHandler
             $this->errorHandler()->addNew(ErrorCode::ERROR_CRITICAL, "Couldn't get source.");
 
         if (preg_match("#<h1 class=\"Story__title\" style=\"font-size:16px\"><a href=\"(.+?)\">.*?</a></h1>#si", $source, $matches) === 1)
-            return $matches[1];
+            $mainurl = $matches[1];
         else {
-            $this->errorHandler()->addNew(ErrorCode::ERROR_WARNING, "Couldn't find title.");
-            return "Untitled";
+            $this->errorHandler()->addNew(ErrorCode::ERROR_CRITICAL, "Story not Found in Archive. Try another story!.");
+            //echo $source;
+            return false;
         }
+        return $mainurl;
     }
 
     private function popSummary($source)
