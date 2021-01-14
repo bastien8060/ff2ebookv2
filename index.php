@@ -5,12 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type='image/x-icon' href="ico/favicon.ico"/>
     <title>FreeFiction | Download for free any WattPad FanFictions.</title>
-
-    <meta name="description" content="Convert FanFiction to ebook for free. Works with WattPad.com, FanFiction.net, FictionPress, HPFanFicArchive & FicWad. Download the story as ePub & Kindle books.">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:300'>
-    <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'><link rel="stylesheet" href="./style.css">
+    <meta name="description" content="Convert FanFiction to ebook for free. Works for WattPad.com, FanFiction.net, FictionPress, FicWad... Download the story as ePub & Kindle books.">
     <meta name="keywords" content="Wattpad, Wattpad Downloader, Wattpad to Epub, FanFiction, FanFiction Downloader, Epub">
+
+    <link rel="stylesheet" href="./style.css">
 
     <meta name="theme-color" content="#FD8541">
     <meta name="msapplication-navbutton-color" content="#FD8541">
