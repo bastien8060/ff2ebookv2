@@ -227,19 +227,19 @@
           <div class="tabs__panel-card">
            <span>
             <h2>FanFiction.net Not Working!</h2><br>
-              <p>Fortunately and unfortunately, FanFiction.net took strong measures to block access on their sites to bots. That is because most bots were behind "spam" compains, via personal messages. The second reason FanFiction.net did this, is to prevent <a title="DDoS Explanation on WikiPedia.com" href="https://en.wikipedia.org/wiki/Denial-of-service_attack" target="_blank" class="xbold underline">DDoS Attacks</a>. However, this means our <span class="italic">bots</span> are blocked too. I found few solutions, however none are permanent. Stay tuned, until I find another solution. An idea is to use a browser extension or make use of sites that has archived old FanFictions.<br><br><span class="xbold underline">Tl;Dr</span><br><br><span class="xbold">You can try to use the Archive Option in settings and it may work!</span></p>
+              <p>Fortunately and unfortunately, FanFiction.net took strong measures to block access on their sites to bots. That is because most bots were behind "spam" campaigns, via personal messages. The second reason FanFiction.net did this, is to prevent <a title="DDoS Explanation on WikiPedia.com" href="https://en.wikipedia.org/wiki/Denial-of-service_attack" target="_blank" class="xbold underline">DDoS Attacks</a>. However, this means our <span class="italic">bots</span> are blocked too. I found few solutions, however none are permanent. Stay tuned, until I find another solution. An idea is to use a browser extension or make use of sites that has archived old FanFictions.<br><br><span class="xbold underline">Tl;Dr</span><br><br><span class="xbold">You can try to use the Archive Option in settings and it may work!</span></p>
             <span>
           </div>
           <div class="tabs__panel-card">
             <span>
               <h2>Error Fetching Chapters/Infos</h2><br>
-              <p>Please Submit an issue on GitHub (<a title="Project's Repo Page" href="https://github.com/bastien8060/ff2ebookv2/issues" target="_blank"><span class="xbold underline">On the repo page</span></a>)</p>
+              <p>Please Submit an issue on GitHub (<a title="Project's Repo Page" href="https://github.com/bastien8060/ff2ebookv2/issues" target="_blank"><span class="xbold underline">On the repository page</span></a>)</p>
             <span>
           </div>
           <div class="tabs__panel-card">
            <span>
             <h2>Your favorite FanFiction site isn't supported?</h2><br>
-              <p>Most FanFiction sites don't take long to be added! Just give me the idea, and I will look into it. The good news is, it takes ruffly <span class="italic">1 day</span> in general to add a new supported site! You can drop an issue on the repo (link above), and I will fix that.</p>
+              <p>Most FanFiction sites don't take long to be added! Just give me the idea, and I will look into it. The good news is, it takes ruffly <span class="italic">1 day</span> in general to add a new supported site! You can drop an issue on the repository (link above), and I will fix that.</p>
             <span>
           </div>
           <div class="tabs__panel-card">
@@ -250,8 +250,8 @@
           </div>
           <div class="tabs__panel-card">
            <span>
-            <h2>Are you a developper?</h2><br>
-              <p>If you are willing, you can help this tool get better!<br>How?<br>Simple, you make make a fork, on my GitHub, and do anything you want: improve it, add a feature(s), fix a bug(s)... Then, you only need to make a merge request. After that, I will check the changes, and if all go well, you will be included in the collaborator of this project, and I will update this website. Your changes will also be reflected on the GitHub Repo. </p>
+            <h2>Are you a developer?</h2><br>
+              <p>If you are willing, you can help this tool get better!<br>How?<br>Simple, you make make a fork, on my GitHub, and do anything you want: improve it, add a feature(s), fix a bug(s)... Then, you only need to make a merge request. After that, I will check the changes, and if all go well, you will be included in the collaborator of this project, and I will update this website. Your changes will also be reflected on the GitHub Repository. </p>
             <span>
           </div>
           <div class="tabs__panel-card">
