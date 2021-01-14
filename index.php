@@ -186,9 +186,15 @@
                
             <span>
           </div>
+          <div class="tabs__panel-card">
+            <span>
+              <h2>What is it?</h2><br>
+              <p>FreeFiction is a FanFiction Downloader website. It can convert FanFictions to ebooks for free. It works for WattPad.com, FanFiction.net, FictionPress, FicWad and more as listed below. <br><br>The good thing is you can download the story as ePub, Mobi & Kindle books.<br><br>That means that whenever a FanFiction is deleted, you can check here if it is archived, and depending on the source, we might still be able to retrieve it even after!<br><br>With this tool you can read FanFictions offline, after a story has been deleted, or on an E-Ink device, such as a Kindle.<br><br>The best thing? It is free!</p>
+            <span>
+          </div>
            <div class="tabs__panel-card">
             <span>
-              <h2>How to use it?</h2><br>
+              <h2>So, how does it work then?</h2><br>
               <p>If your FanFiction site is in the list above, then you can convert it to an ebook! <br><br> To start, enter the URL in the "URL" tab. <br>Then you may choose your settings in the "Settings" tab. <br>There, you can choose between a wide range of options, like the output file format (Only Epub and MOBI for now. PDF coming soon!), to force the website to refresh the FanFiction, to disable your browser from downloading the file automatically or to disable the FanFiction.net Archive Feature.<br><br>If you suspect any error(s), you can check the converter's log by going to the "Output" tab.<br><br>The Download Link will be under the download button. </p>
             <span>
           </div>
