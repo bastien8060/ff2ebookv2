@@ -71,7 +71,7 @@
 <!-- partial:index.partial.html -->
 <!--PEN HEADER-->
 <div class="header">
-  <h1 class="header__title bold"><span class="bold">Free<span class="highlight">Fiction</span></span></h1>
+  <h1 class="header__title bold"><span class="bold">Free<span class="highlight">Fiction</span></span> <span class="smaller">Ebook Downloader</span></h1>
   <div class="header__btns btns"><a class="header__btn btn" href="https://github.com/bastien8060/ff2ebookv2" title="Check on Github" target="_blanc">Check on Github</a></div><br><br>
   <div class="header__btns btns"><a class="header__btn btn" href="archive.php" title="Check Archive" target="_blanc">Open the Holy Archive</a></div>
 </div>
@@ -173,13 +173,13 @@
           <div class="tabs__panel-card">
             <span>
               <h2>Not Receiving Emails on Kindle?</h2><br>
-              <p>Make sure to add ebook-sender@wattpad.cf to your spam filter or Kindle Approved Personal Document E-mail List. See <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GX9XLEVV8G4DB28H" target="_blank"><span class="xbold underline">here</span></a>, how to do it.</p>
+              <p>Make sure to add ebook-sender@wattpad.cf to your spam filter or Kindle Approved Personal Document E-mail List. See <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GX9XLEVV8G4DB28H" target="_blank"><span class="xbold underline">Amazon's Guide</span></a>, how to do it.</p>
             <span>
           </div>
           <div class="tabs__panel-card">
             <span>
               <h2>Error Fetching Chapters/Infos</h2><br>
-              <p>Please Submit an issue on GitHub (<a href="https://github.com/bastien8060/ff2ebookv2/issues" target="_blank"><span class="xbold underline">here</span></a>)</p>
+              <p>Please Submit an issue on GitHub (<a href="https://github.com/bastien8060/ff2ebookv2/issues" target="_blank"><span class="xbold underline">On the repo page</span></a>)</p>
             <span>
           </div>
            <div class="tabs__panel-card">
