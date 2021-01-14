@@ -219,6 +219,12 @@
             <span>
           </div>
           <div class="tabs__panel-card">
+            <span>
+              <h2>Mobi Output not working</h2><br>
+              <p>Mobi is still a recent implementation on this site and may not be foolproof. There could be many reasons for Mobi not to work.<br><br> If Mobi doesn't work for you, you can try downloading it first as an Epub and download it, then visit the archive and download the Mobi Link.<br>This should work.</p>
+            <span>
+          </div>
+          <div class="tabs__panel-card">
            <span>
             <h2>Are you a developper?</h2><br>
               <p>If you are willing, you can help this tool get better!<br>How?<br>Simple, you make make a fork, on my GitHub, and do anything you want: improve it, add a feature(s), fix a bug(s)... Then, you only need to make a merge request. After that, I will check the changes, and if all go well, you will be included in the collaborator of this project, and I will update this website. Your changes will also be reflected on the GitHub Repo. </p>
